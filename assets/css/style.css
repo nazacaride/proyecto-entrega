@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+footer{
+    display: flex;
+    background-color: #005C53;
+    justify-content: space-between;
+    padding: 20px;
+    
+    /* width: 100%; */
+
+}
+
+footer div a img{
+    display: flex;
+    display: inline;
+    border-radius: 40px;
+    height: 35px;
+    position: relative;
+    
+    
+    
+}
+footer div a img:hover{
+ transform: scale(1.2);
+}
+
+
+footer h5{
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+
+.infoFoot{
+    color: white;
+}
+
+.imgHombre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content:space-between
+    
+    
+
+}
+/* .text-center{
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+.card-text{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.fontstyle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #2CCCAE;
+}
+
+.paddingTB{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.colorNav{
+    background-color: #005C53;
+    
+}
+
